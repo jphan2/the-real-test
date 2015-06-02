@@ -1,0 +1,15 @@
+//testing if json works
+
+import org.json.simple.JSONObject
+class jsonTest
+{
+	public static void main(String[] args)
+	{
+		JSONObject json = new JSONObject();
+		json.put("name", "doobs");
+		json.put("id", new Integer(196933));
+		json.put("age", new Integer(21));
+		json.put("single?", new Boolean(true));
+	}
+	System.out.println(json);
+}
